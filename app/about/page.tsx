@@ -11,8 +11,30 @@ export const metadata = {
 };
 
 export default function AboutPage() {
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Nasiru Yunusa Bala",
+    jobTitle: "Founder & Chief Executive Officer",
+    image: "https://www.annaseeri.com/images/nasiru-yunusa-bala.jpg.jpeg",
+    description:
+      "Nasiru Yunusa Bala is the Founder and Chief Executive Officer of ANNASEERI NIG. LTD.",
+    worksFor: {
+      "@type": "Organization",
+      name: "ANNASEERI NIG. LTD",
+      url: "https://www.annaseeri.com",
+    },
+    url: "https://www.annaseeri.com/about",
+  };
   return (
-    <>
+<>
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(personSchema),
+  }}
+/>
+    
       <PageHero
         title="About ANNASEERI NIG. LTD"
         description="A Nigerian company operating across real estate, technology, and construction."
