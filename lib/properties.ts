@@ -40,10 +40,10 @@ export const properties: Property[] = [
     description:
       "The Jabi Project is a commercial development by ANNASEERI NIG. LTD, located in Jabi, Abuja. Contact ANNASEERI NIG. LTD for further project details and availability.",
     features: [],
-    images: [
+   images: [
+  "/images/jab (3).jpeg",
   "/images/jab (1).jpeg",
   "/images/jab (2).jpeg",
-  "/images/jab (3).jpeg",
 ],
   },
 ];
