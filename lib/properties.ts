@@ -41,11 +41,10 @@ export const properties: Property[] = [
       "The Jabi Project is a commercial development by ANNASEERI NIG. LTD, located in Jabi, Abuja. Contact ANNASEERI NIG. LTD for further project details and availability.",
     features: [],
     images: [
-      "https://images.pexels.com/photos/418320/pexels-photo-418320.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-      "https://images.pexels.com/photos/7166640/pexels-photo-7166640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-      "https://images.pexels.com/photos/18285887/pexels-photo-18285887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-      "https://images.pexels.com/photos/16110999/pexels-photo-16110999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    ],
+  "/images/jab (1).jpeg",
+  "/images/jab (2).jpeg",
+  "/images/jab (3).jpeg",
+],
   },
 ];
 
@@ -56,3 +55,4 @@ export function getPropertyBySlug(slug: string): Property | undefined {
 export function getAllPropertySlugs(): string[] {
   return properties.map((p) => p.slug);
 }
+
